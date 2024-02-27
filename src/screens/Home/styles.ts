@@ -12,7 +12,7 @@ export const LoginText = styled.Text`
 `;
 
 export const MainContent = styled.View`
-  background-color: ${({ theme }) => theme.COLORS.BLACK};
+  background-color: ${({ theme }) => theme.COLORS.WHITE};
   height: 100%;
 `;
 

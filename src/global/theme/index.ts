@@ -18,7 +18,7 @@ export default {
     ERROR: "#EA400E",
   },
   FONTS: {
-    REGULAR: "TimFont",
+    REGULAR: "MainFont",
   },
   CONSTANTS: {
     PADDING: "15px",

@@ -9,13 +9,13 @@ const AppRoutes: React.FC = () => {
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="Login"
-        component={Login}
+        name="Welcome"
+        component={Welcome}
         options={{ headerShown: false }}
       />
       <Stack.Screen
-        name="Welcome"
-        component={Welcome}
+        name="Login"
+        component={Login}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>
