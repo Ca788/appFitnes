@@ -1,7 +1,8 @@
 import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { Welcome } from "../screens/Welcome";
-import { Login } from "../screens/Home";
+import { Home } from "../screens/Home";
+import Treino from "../screens/Treino";
 
 const Stack = createNativeStackNavigator();
 
@@ -14,8 +15,13 @@ const AppRoutes: React.FC = () => {
         options={{ headerShown: false }}
       />
       <Stack.Screen
-        name="Login"
-        component={Login}
+        name="Home"
+        component={Home}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Treino"
+        component={Treino}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>

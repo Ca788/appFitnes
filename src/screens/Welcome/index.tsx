@@ -25,7 +25,7 @@ export function Welcome() {
         <View>
           <ImageMuscle source={require("../../assets/images/m.png")} />
           <ImageMuscle2 source={require("../../assets/images/proteina.png")} />
-          <ImageMuscle3 source={require("../../assets/images/proteina.png")} />
+          <ImageMuscle3 source={require("../../assets/images/imc.png")} />
           <ImageMuscle4 source={require("../../assets/images/woman.png")} />
         </View>
 
@@ -38,7 +38,7 @@ export function Welcome() {
             <TextInto>Aqui você encontra seu treino personalizado.</TextInto>
 
             <ButtonInicio
-              onPress={() => navigation.navigate("Login" as never)}
+              onPress={() => navigation.navigate("Home" as never)}
             />
           </ContainerInto>
         </ContainerMainContent>

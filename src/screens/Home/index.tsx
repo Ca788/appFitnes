@@ -1,5 +1,5 @@
 import React from "react";
-import { Alert, View } from "react-native";
+import { View } from "react-native";
 import {
   Container,
   MainContent,
@@ -12,7 +12,7 @@ import { useNavigation } from "@react-navigation/native";
 import { Header } from "../../components/header";
 import { Footer } from "../../components/footer";
 
-export function Login() {
+export function Home() {
   const navigation = useNavigation();
   return (
     <>
@@ -24,18 +24,18 @@ export function Login() {
           </View>
 
           <ContainerButtons>
-            <SessionText>QUAL SEU NIVEL</SessionText>
+            <SessionText>QUAL SEU NÍVEL</SessionText>
             <Button
               title="Iniciante"
-              onPress={() => navigation.navigate("Welcome" as never)}
+              onPress={() => navigation.navigate("Treino" as never)}
             />
             <Button
               title="Intermediario"
-              onPress={() => Alert.alert("Button with adjusted color pressed")}
+              onPress={() => navigation.navigate("Treino" as never)}
             />
             <Button
               title="Avançado"
-              onPress={() => Alert.alert("Button with adjusted color pressed")}
+              onPress={() => navigation.navigate("Treino" as never)}
             />
           </ContainerButtons>
         </MainContent>
